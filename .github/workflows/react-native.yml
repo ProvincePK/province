@@ -34,9 +34,9 @@ jobs:
       - name: Push changes
         uses: cpina/github-action-push-to-another-repository@main
         with:
-          source-directory: .
+          source-directory: 'mobile'
           destination-github-username: 'ProvincePK'
-          destination-repository-name: 'province'
+          destination-repository-name: 'province-mobile'
           user-email: github-actions[bot]@users.noreply.github.
           user-name: github-actions[bot]
           target-branch: main
